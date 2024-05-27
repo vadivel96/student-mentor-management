@@ -16,5 +16,5 @@ async function getStudentCallback(req,res,next){
         res.status(404).send(`No table with name students exists ..!!!`)
     }
     return
-}
+} 
 module.exports={getStudentCallback}
